@@ -1,0 +1,4 @@
+# > School LAN
+IP-CIDR,172.19.1.9/32,DIRECT
+# > Zenly
+DOMAIN-SUFFIX,znly.co,DIRECT // Added for webpage: api.znly.co:443
