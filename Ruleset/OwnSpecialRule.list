@@ -1,4 +1,0 @@
-# > School LAN
-IP-CIDR,172.19.1.9/32, no-resolve
-# > Zenly
-DOMAIN-SUFFIX,znly.co // Added for webpage: api.znly.co:443
