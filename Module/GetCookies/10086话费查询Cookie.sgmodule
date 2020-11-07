@@ -1,0 +1,11 @@
+#!name=10086话费获取Cookie
+#!desc=From https://github.com/chavyleung/scripts/blob/master/10086/10086.fee.cookie.js
+
+[MITM]
+hostname = %INSERT% clientaccess.10086.cn
+
+[Script]
+# 注意获取Cookie有两条脚本
+Rewrite: CMCC = type=http-request,pattern=^https:\/\/clientaccess.10086.cn\/biz-orange\/LN\/uamrandcodelogin\/autoLogin,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.fee.cookie.js,requires-body=true,debug=true
+Rewrite: CMCC = type=http-request,pattern=^https:\/\/clientaccess.10086.cn\/biz-orange\/BN\/realFeeQuery\/getRealFee,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.fee.cookie.js,requires-body=true,debug=true
+
