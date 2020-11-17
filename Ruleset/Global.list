@@ -13,6 +13,7 @@ DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,.blogspot.
 
 # > Microsoft
+DOMAIN-SUFFIX,aka.ms
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN,az416426.vo.msecnd.net
 DOMAIN,az668014.vo.msecnd.net
@@ -69,12 +70,16 @@ IP-CIDR,125.209.208.0/20,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
 IP-CIDR,203.104.144.0/21,no-resolve
 
+# > Amazon
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN,d3c33hcgiwev3.cloudfront.net
+DOMAIN,payments-jp.amazon.com
+DOMAIN,s3-ap-northeast-1.amazonaws.com
+DOMAIN,s3-ap-southeast-2.amazonaws.com
+
 # > Akamai
 DOMAIN,a248.e.akamai.net
 DOMAIN,a771.dscq.akamai.net
-
-# > Amazon CloudFront
-DOMAIN,d3c33hcgiwev3.cloudfront.net
 
 # > V2EX
 DOMAIN-SUFFIX,v2ex.com
@@ -86,7 +91,6 @@ DOMAIN-SUFFIX,9gag.com
 DOMAIN-SUFFIX,abc.com
 DOMAIN-SUFFIX,abc.net.au
 DOMAIN-SUFFIX,abebooks.com
-DOMAIN-SUFFIX,amazon.co.jp
 DOMAIN-SUFFIX,ao3.org
 DOMAIN-SUFFIX,apigee.com
 DOMAIN-SUFFIX,apkcombo.com
@@ -200,6 +204,7 @@ DOMAIN-SUFFIX,ft.com
 DOMAIN-SUFFIX,ftchinese.com
 DOMAIN-SUFFIX,ftimg.net
 DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,genius.com
 DOMAIN-SUFFIX,getlantern.org
 DOMAIN-SUFFIX,getsync.com
 DOMAIN-SUFFIX,github.com
@@ -365,6 +370,7 @@ DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steemit.com
 DOMAIN-SUFFIX,steemitwallet.com
 DOMAIN-SUFFIX,straitstimes.com
+DOMAIN-SUFFIX,streamable.com
 DOMAIN-SUFFIX,streema.com
 DOMAIN-SUFFIX,t66y.com
 DOMAIN-SUFFIX,tapatalk.com
@@ -440,9 +446,6 @@ DOMAIN-SUFFIX,zoom.us
 
 DOMAIN,cc.tvbs.com.tw
 DOMAIN,ocsp.int-x3.letsencrypt.org
-DOMAIN,payments-jp.amazon.com
-DOMAIN,s3-ap-northeast-1.amazonaws.com
-DOMAIN,s3-ap-southeast-2.amazonaws.com
 DOMAIN,search.avira.com
 DOMAIN,us.weibo.com
 
@@ -509,12 +512,7 @@ DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telesco.pe
 # > Facebook
-DOMAIN-SUFFIX,facebook.br
-DOMAIN-SUFFIX,facebook.design
-DOMAIN-SUFFIX,facebook.hu
-DOMAIN-SUFFIX,facebook.in
-DOMAIN-SUFFIX,facebook.nl
-DOMAIN-SUFFIX,facebook.se
+DOMAIN-KEYWORD,.facebook.
 DOMAIN-SUFFIX,facebookmail.com
 # > Others
 DOMAIN-SUFFIX,noxinfluencer.com
@@ -557,6 +555,7 @@ DOMAIN-SUFFIX,inkbunny.net
 DOMAIN-SUFFIX,metapix.net
 DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,zaobao.com.sg
+DOMAIN,ocsp.apple.com
 
 # > Amazon
 IP-CIDR,13.32.0.0/16,no-resolve
