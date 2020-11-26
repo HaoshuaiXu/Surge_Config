@@ -395,3 +395,6 @@ DOMAIN-SUFFIX,api.segment.io
 
 # > School LAN
 IP-CIDR,172.19.1.9/32, no-resolve
+
+# > Flomo.app
+DOMAIN-SUFFIX,flomo.app,DIRECT
