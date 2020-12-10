@@ -386,7 +386,7 @@ DOMAIN,images-cn.ssl-images-amazon.com
 IP-CIDR,119.28.28.28/32,no-resolve
 IP-CIDR,182.254.116.0/24,no-resolve
 
-# > ---- Rules Added By Myself ----
+# ---- Rules Added By Myself ----
 # > Zenly.app
 DOMAIN-SUFFIX,znly.co
 DOMAIN-SUFFIX,o331365.ingest.sentry.io
@@ -397,3 +397,6 @@ IP-CIDR,172.19.1.9/32, no-resolve
 
 # > Flomo.app
 DOMAIN-SUFFIX,flomo.app,DIRECT
+
+# > Things 3
+DOMAIN,cloud.culturedcode.com,DIRECT
