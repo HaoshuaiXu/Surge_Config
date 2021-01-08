@@ -1,3 +1,7 @@
-# EndNote
+# > EndNote
 DOMAIN,endnote.com,REJECT
 DOMAIN,download.endnote.com,REJECT
+
+# > HyperDock
+DOMAIN,bahoom.com,REJECT
+DOMAIN,mail.bahoom.com,REJECT
