@@ -379,3 +379,6 @@ DOMAIN-SUFFIX,api.segment.io
 
 # > Things.app
 DOMAIN-SUFFIX,cloud.culturedcode.com
+
+# > MosuCloud
+DOMAIN,moo.pet
