@@ -558,6 +558,7 @@ DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,zaobao.com.sg
 DOMAIN,international-gfe.download.nvidia.com
 DOMAIN,ocsp.apple.com
+DOMAIN,store-images.s-microsoft.com
 
 # > Amazon
 IP-CIDR,13.32.0.0/16,no-resolve
